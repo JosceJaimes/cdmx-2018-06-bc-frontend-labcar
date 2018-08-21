@@ -1,0 +1,18 @@
+
+// Yep
+$font-type: sans-serif;
+
+
+
+
+$color-fondos: #F55;
+
+body {
+  background-color: $color-fondos;
+}
+
+@mixin transform($value) {
+    -webkit-transform: $value;
+    -moz-transform: $value;
+    transform: $value;
+  }
