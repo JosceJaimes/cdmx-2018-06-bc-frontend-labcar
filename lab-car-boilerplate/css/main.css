@@ -179,3 +179,10 @@ h5{
 #imag1{
     text-align: center;
 }
+
+@media screen and(min-width:480px)and(max-width:780px){
+    .text, .text2, .text3, .texta{
+        background-color: aqua;
+    }
+
+}
